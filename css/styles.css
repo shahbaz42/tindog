@@ -7,7 +7,6 @@ h1 {
   font-size: 4rem;
   line-height: 1.5;
   font-weight: 900;
-  color: white;
   padding-bottom: 50px;
 }
 
@@ -16,7 +15,6 @@ h2{
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
-  color: white;
 }
 
 h3 {
@@ -53,6 +51,11 @@ p{
 }
 
 /* title */
+
+.title-h1{
+  color: white;
+}
+
 .title-image-div{
   display: flex;
   justify-content: center;
@@ -76,36 +79,36 @@ p{
 }
 
 .check-icon{
-  color : #ff4c68;
+  color : #ef8172;
   padding-bottom: 25px;
 }
 
 .check-icon:hover{
-  color: red;
+  color: #ff4c68;
   padding-bottom: 25px;
   transform: scale(105%);
   transition: transform .2s;
 }
 
 .bullseye-icon{
-  color : #ff4c68;
+  color : #ef8172;
   padding-bottom: 25px;
 }
 
 .bullseye-icon:hover{
-  color: red;
+  color: #ff4c68;
   padding-bottom: 25px;
   transform: scale(105%);
   transition: transform .2s;
 }
 
 .heart-icon{
-  color : #ff4c68;
+  color : #ef8172;
   padding-bottom: 25px;
 }
 
 .heart-icon:hover{
-  color: red;
+  color: #ff4c68;
   padding-bottom: 25px;
   transform: scale(105%);
   transition: transform .2s;
@@ -114,10 +117,18 @@ p{
 /* Testimonials */
 
 #testimonials{
-  padding: 7% 15%;
+
   text-align: center;
   background-color: #ef8172;
   color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials-text{
+  color: white;
 }
 
 .testimonial-image{
@@ -134,5 +145,25 @@ p{
 
 .press-logo{
   width: 15%;
-  margin:20px 20px 100px;
+  margin:40px 20px 75px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-header{
+  text-align: center;
+}
+
+.pricing-h3{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.pricing-col{
+  padding: 3% 2%;
 }
