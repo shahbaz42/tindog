@@ -1,5 +1,6 @@
 #title {
   background-color: #ff4c68;
+
 }
 
 h1 {
@@ -31,7 +32,7 @@ p{
 }
 
 .container-fluid{
-  padding: 2% 15%;
+  padding: 2% 15% 7%;
 }
 
 /* navbar */
@@ -57,19 +58,23 @@ p{
 }
 
 .title-image-div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .title-image{
   transform: rotate(23deg);
-  width:60%;
+  width:55%;
+  position: absolute;
+  top : 25px;
+  left: 18%;
 }
 
 /* Features */
 
 #features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
 
 }
 
@@ -161,7 +166,7 @@ p{
 
 .pricing-h3{
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 0
 }
 
 .pricing-col{
