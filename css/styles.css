@@ -69,6 +69,22 @@ p{
   left: 18%;
 }
 
+
+
+@media (max-width: 1200px){
+
+#title{
+  text-align:center;
+}
+
+.title-image{
+    transform: rotate(0);
+    position: static;
+}
+
+}
+
+
 /* Features */
 
 #features{
