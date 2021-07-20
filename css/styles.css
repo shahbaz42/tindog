@@ -104,36 +104,36 @@ p{
 }
 
 .check-icon{
-  color : #ef8172;
+  color : #ff4c68;
   padding-bottom: 25px;
 }
 
 .check-icon:hover{
-  color: #ff4c68;
+  color: red;
   padding-bottom: 25px;
   transform: scale(105%);
   transition: transform .2s;
 }
 
 .bullseye-icon{
-  color : #ef8172;
+  color : #ff4c68;
   padding-bottom: 25px;
 }
 
 .bullseye-icon:hover{
-  color: #ff4c68;
+  color: red;
   padding-bottom: 25px;
   transform: scale(105%);
   transition: transform .2s;
 }
 
 .heart-icon{
-  color : #ef8172;
+  color : #ff4c68;
   padding-bottom: 25px;
 }
 
 .heart-icon:hover{
-  color: #ff4c68;
+  color: red;
   padding-bottom: 25px;
   transform: scale(105%);
   transition: transform .2s;
@@ -151,7 +151,7 @@ p{
 #testimonials{
 
   text-align: center;
-  background-color: #ef8172;
+  background-color: #ff4c68;
   color: #fff;
 }
 
@@ -171,7 +171,7 @@ p{
 
 /* Press */
 #press{
-  background-color: #ef8172;
+  background-color: #ff4c68;
   text-align: center;
 }
 
