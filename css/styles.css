@@ -73,6 +73,10 @@ p{
 
 @media (max-width: 1200px){
 
+.container-fluid{
+    padding: 2% 5% 7%;
+}
+
 #title{
   text-align:center;
 }
