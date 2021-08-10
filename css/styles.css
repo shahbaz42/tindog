@@ -1,34 +1,29 @@
-#title {
-  background-color: #ff4c68;
-
+html {
+  scroll-behavior: smooth;
 }
 
-h1 {
+h1, h2, h3, h4, h5{
   font-family: 'Montserrat';
-  font-size: 4rem;
-  line-height: 1.5;
   font-weight: 900;
-  padding-bottom: 50px;
+}
+
+#title {
+  background-color: #ff4c68;
 }
 
 h2{
-  font-family: 'Montserrat';
   font-size: 3rem;
   line-height: 1.5;
-  font-weight: 900;
 }
 
 h3 {
-  font-family: 'Montserrat';
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.2;
-  font-weight: 900;
   padding-bottom: 15px;
 }
 
 p{
   font-family: "Ubuntu";
-
 }
 
 .container-fluid{
@@ -55,10 +50,9 @@ p{
 
 .title-h1{
   color: white;
-}
-
-.title-image-div{
-
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-bottom: 50px;
 }
 
 .title-image{
@@ -198,4 +192,31 @@ p{
 
 .pricing-col{
   padding: 3% 2%;
+}
+
+/* cta */
+
+.cta-container{
+  background-color: #ff4c68;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+.cta-container-text{
+  color: white;
+  padding-bottom: 32px;
+}
+
+/* Footer Section */
+
+#footer{
+  text-align: center;
+  padding: 25px 0 10px 0;
+}
+
+.footer-icons{
+  color: #343a40;
+  margin: 0 5px 0 5px;
+  padding-bottom: 15px;
+
 }
